@@ -323,14 +323,15 @@ footer{
     display: block;
     font-size: 25px;
     margin-top: -269px;
-    z-index: 2;
+    z-index: 1;
 }
 
     .close svg {
-    color:white;
+    color:#b08e72;
     border: 1px solid;
-    background-color: white;
+    /* background-color: white; */
     }
+
    #ul li a {
     color: black;
     display: flex;
