@@ -63,3 +63,17 @@ function show() {
     swipe.style.display='block';
     swipe.style.right='0'
 }
+
+
+    
+window.addEventListener('load',()=>{
+    let loaderScreen = document.querySelector('.loaderpage');
+    let content = document.getElementById('#container2');
+    const minLoadingTime=1000;
+
+    
+    this.setTimeout(()=>{
+        loaderScreen.style.display='none';
+        container2.style.display='block';            
+    }, minLoadingTime);
+})
