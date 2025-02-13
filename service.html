@@ -30,12 +30,16 @@
             <div class="logo">
                 <img src="logo.png" alt="img">
             </div>
-            <ul>
+            <ul id="ul">
                 <li> <a href="index.html">Home </a></li>
                 <li> <a href="#">Pages</a></li>
                 <li> <a href="service.html">Service</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li> <a href="contact.html">Contact</a></li>
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m336-280-56-56 144-144-144-143 56-56 144 144 143-144 56 56-144 143 144 144-56 56-143-144-144 144Z"/></svg>
+                    </div>
+    
             </ul>
             <p>BOOK NOW
                 <svg xmlns="http://www.w3.org/2000/svg" width="66" height="36" fill="currentColor"
@@ -52,7 +56,7 @@
     </header>
        <div class="loaderpage">
         <div class="loader">
-        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2kybnJiN2ZzaTNuMjdhdzJsaGk3c2sxZ3hyeHNma21oZmI5eGszNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hebVC5HnSqoSrZkzEN/giphy.gif" alt="gif">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2kybnJiN2ZzaTNuMjdhdzJsaGk3c2sxZ3hyeHNma21oZmI5eGszNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hebVC5HnSqoSrZkzEN/giphy.gif" alt="">
         </div>
         <p style="color:black;font-size: 20px; font-weight: 400; margin-top: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Please Loading Wait !!</p>
     </div>
@@ -179,6 +183,17 @@ window.addEventListener('load',()=>{
         container2.style.display='block';            
     }, minLoadingTime);
 })
+
+function showSidebar() {
+    const show = document.querySelector('#ul');
+    show.style.display = 'block'
+
+}
+
+function hideSidebar() {
+    const show = document.querySelector('#ul');
+    show.style.display = 'none'
+}
 
 
 </script>
