@@ -346,7 +346,7 @@ footer{
         margin-top: 31px;
         left: 80%;
         position: fixed;
-        color: white; 
+        border: 1px solid red;
         z-index: 100;
        }
 
